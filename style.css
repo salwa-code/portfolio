@@ -2,28 +2,53 @@
     display: flex;
     justify-content: space-between;
     
+    
 }
 
 h1 {
-  padding: 50px;  
-  font-size: 100px;
-
+  padding:50px;
+  font-size : 100px;
+  text-align: center;
+  color: azure;
 }
 h4 {
     padding: 20px;
-    font-family: cursive;
-    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
 }
 p {
    padding: 10px;
     text-align: left;
     font-size:20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 body {
-  background-image: url('images/');
+  display:inline-block;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: grey;
+}
+h2 {
+    font-family: monospace;
+    font-size: 3rem;
+    
+}
+h3 {
+    font-size: 20px;
+    font-family: serif;
+    color: black;
+
+}
+h4 {
+    font-family: inherit;
+
+}
+img {
+    size: 5rem;
+    background-origin: padding-box;
+    display: inline-block;
+
 }
